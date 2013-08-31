@@ -1,8 +1,8 @@
 Ecodomica01::Application.routes.draw do
-  resources :products
 
-
-  resources :brands
+resources :brands do
+      resources :products
+    end
 
 
   # The priority is based upon order of creation:
