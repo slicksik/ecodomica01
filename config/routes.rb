@@ -1,4 +1,7 @@
 Ecodomica01::Application.routes.draw do
+  resources :products
+
+
   resources :brands
 
 
