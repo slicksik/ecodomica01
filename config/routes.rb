@@ -4,7 +4,7 @@ resources :brands do
       resources :products
     end
 
-
+root :to => 'brands#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
