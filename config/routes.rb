@@ -1,4 +1,7 @@
 Ecodomica01::Application.routes.draw do
+  resources :brands
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
