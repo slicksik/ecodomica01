@@ -1,5 +1,8 @@
 Ecodomica01::Application.routes.draw do
 
+  resources :prospects
+
+
   resources :customers
 
 
